@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {  maskValue } from '../../utils/fn';
 import * as s from './styles';
+import EditIcon from '../../assets/Icons/ChangeOptions';
 
 export type SpeedometerProps = {
   children?: React.ReactNode;
@@ -56,7 +57,7 @@ export function Speedometer ({
                 // set action to open modal
               }}
             >
-              <img width="3x" height="15px" src="../../assest/Icons/ChangeOptions/index.svg" alt="" />
+              <EditIcon color="#78706F" />
               <span className="editLabel">
                 Editar
               </span>

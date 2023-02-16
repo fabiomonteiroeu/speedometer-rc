@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { maskValue } from '../../utils/fn';
 import * as s from './styles';
+import EditIcon from '../../assets/Icons/ChangeOptions';
 export function Speedometer({ children, title, needleValue, needleRotateValue = -1, speedFillValue, needleBgColor = '#78706F', speedFillColor, speedCoverColor, metaValue, totalFillValue, loading = false }) {
     const [styleShowEdit, setStyleShowEdit] = useState({
         transform: 'translateX(73%)'
@@ -18,7 +19,7 @@ export function Speedometer({ children, title, needleValue, needleRotateValue = 
                 React.createElement("div", { className: "editButton", style: styleShowEdit, onClick: () => {
                         // set action to open modal
                     } },
-                    React.createElement("img", { width: "3x", height: "15px", src: "../../assest/Icons/ChangeOptions/index.svg", alt: "" }),
+                    React.createElement(EditIcon, { color: "#78706F" }),
                     React.createElement("span", { className: "editLabel" }, "Editar")))),
         React.createElement("div", { className: "speedometerWrapper" },
             React.createElement("div", { className: "speedometerContainer" },
