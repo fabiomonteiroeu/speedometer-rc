@@ -26,6 +26,8 @@ export const Wrapper = styled.div<SpeedometerStyles>`
         font-size: 1rem;
         font-weight: bold;
         color: #333333;
+        margin:0;
+        padding: 0;
       }
       .speedometerChangeMetric{
         cursor: pointer;
@@ -38,7 +40,7 @@ export const Wrapper = styled.div<SpeedometerStyles>`
           transition: 0.50s;
           transform: translateX(73%);
 
-          & img {
+          &:img {
               padding: 0;
               width: 1.4rem;
               height: 1.4rem;
