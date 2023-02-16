@@ -1,6 +1,6 @@
 {
   "name": "assesso-speedometer-rc",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "drescription": "Speedometer component",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
