@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./build",
     "target": "es5",
     "lib": [
       "dom",
@@ -8,6 +9,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
+    "declaration": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -21,6 +23,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "./src/**/*.tsx",
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
