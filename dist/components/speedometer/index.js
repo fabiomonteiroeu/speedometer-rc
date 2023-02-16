@@ -18,7 +18,7 @@ export function Speedometer({ children, title, needleValue, needleRotateValue = 
                 React.createElement("div", { className: "editButton", style: styleShowEdit, onClick: () => {
                         // set action to open modal
                     } },
-                    React.createElement("img", { src: "./Icons/ChangeOptions/index.svg", alt: "" }),
+                    React.createElement("img", { width: "3x", height: "15px", src: "../../assest/Icons/ChangeOptions/index.svg", alt: "" }),
                     React.createElement("span", { className: "editLabel" }, "Editar")))),
         React.createElement("div", { className: "speedometerWrapper" },
             React.createElement("div", { className: "speedometerContainer" },
