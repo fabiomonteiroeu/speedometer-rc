@@ -2,5 +2,5 @@
 #componente de velocímetro teste Assesso
 
 ```
-npm i assesso-speedometer
+npm i assesso-speedometer-rc
 ```
