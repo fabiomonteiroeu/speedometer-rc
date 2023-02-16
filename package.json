@@ -1,6 +1,6 @@
 {
   "name": "assesso-speedometer-rc",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "drescription": "Speedometer component",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -47,7 +47,7 @@
   "main": "dist",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabiomonteiroeu/assesso-speedometer.git"
+    "url": "git+https://github.com/fabiomonteiroeu/assesso-speedometer-rc.git"
   },
   "keywords": [
     "speedometer",
@@ -56,7 +56,7 @@
   "author": "Fábio Monteiro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fabiomonteiroeu/assesso-speedometer/issues"
+    "url": "https://github.com/fabiomonteiroeu/assesso-speedometer-rc/issues"
   },
-  "homepage": "https://github.com/fabiomonteiroeu/assesso-speedometer#readme"
+  "homepage": "https://github.com/fabiomonteiroeu/assesso-speedometer-rc#readme"
 }
