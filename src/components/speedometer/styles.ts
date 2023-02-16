@@ -204,7 +204,7 @@ export const Wrapper = styled.div<SpeedometerStyles>`
       top: -50px;
       border: 1px solid #333;
       span{
-        .number{
+        b.number{
           color:#333;
         }
       }
