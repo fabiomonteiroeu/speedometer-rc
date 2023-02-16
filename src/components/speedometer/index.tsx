@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {  maskValue } from './utils/fn';
+import {  maskValue } from '../../utils/fn';
 import * as s from './styles';
 
 export type SpeedometerProps = {
@@ -16,7 +16,7 @@ export type SpeedometerProps = {
   totalFillValue?: number;
 };
 
-const Speedometer = ({
+export function Speedometer ({
   children,
   title,
   needleValue,
@@ -28,7 +28,7 @@ const Speedometer = ({
   metaValue,
   totalFillValue,
   loading = false
-}: SpeedometerProps) => {
+}: SpeedometerProps) {
   const [styleShowEdit, setStyleShowEdit] = useState({
     transform: 'translateX(73%)'
   });

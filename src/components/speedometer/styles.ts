@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components';
-import { media } from './media';
+import { media } from '../../media';
 
 type SpeedometerStyles = {
   needleBgColor?: number | string;
