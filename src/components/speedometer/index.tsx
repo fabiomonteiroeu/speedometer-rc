@@ -56,7 +56,7 @@ export function Speedometer ({
                 // set action to open modal
               }}
             >
-              <img src="../../assest/Icons/ChangeOptions/index.svg" alt="" />
+              <img width="3x" height="15px" src="../../assest/Icons/ChangeOptions/index.svg" alt="" />
               <span className="editLabel">
                 Editar
               </span>
