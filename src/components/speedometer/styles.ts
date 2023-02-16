@@ -25,6 +25,7 @@ export const Wrapper = styled.div<SpeedometerStyles>`
         text-transform: uppercase;
         font-size: 1rem;
         font-weight: bold;
+        color: #333333;
       }
       .speedometerChangeMetric{
         cursor: pointer;
@@ -204,7 +205,7 @@ export const Wrapper = styled.div<SpeedometerStyles>`
       border: 1px solid #333;
       span{
         .number{
-
+          color:#333;
         }
       }
     }
