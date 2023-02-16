@@ -15,12 +15,11 @@
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
     "styled-media-query": "^2.1.2",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts & tsc",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,7 +44,7 @@
   "devDependencies": {
     "@types/styled-components": "^5.1.26"
   },
-  "main": "build",
+  "main": "dist",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fabiomonteiroeu/assesso-speedometer.git"
