@@ -18,6 +18,7 @@ export const Wrapper = styled.div `
         text-transform: uppercase;
         font-size: 1rem;
         font-weight: bold;
+        color: #333333;
       }
       .speedometerChangeMetric{
         cursor: pointer;
@@ -196,8 +197,8 @@ export const Wrapper = styled.div `
       top: -50px;
       border: 1px solid #333;
       span{
-        .number{
-
+        b.number{
+          color:#333;
         }
       }
     }
