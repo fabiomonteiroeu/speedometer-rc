@@ -31,12 +31,11 @@ export const Wrapper = styled.div `
           transition: 0.50s;
           transform: translateX(73%);
 
-          & [aria-label="IconBase component"] {
-            padding: 0;
-            & svg{
+          & img {
+              padding: 0;
               width: 1.4rem;
               height: 1.4rem;
-            }
+              
           }
 
           &:ChangeOptionsIcon{
