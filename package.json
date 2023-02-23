@@ -1,6 +1,6 @@
 {
   "name": "assesso-speedometer-rc",
-  "version": "0.2.7",
+  "version": "1.0.0",
   "drescription": "Speedometer component",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -58,5 +58,6 @@
   "bugs": {
     "url": "https://github.com/fabiomonteiroeu/assesso-speedometer/issues"
   },
-  "homepage": "https://github.com/fabiomonteiroeu/assesso-speedometer#readme"
+  "homepage": "https://github.com/fabiomonteiroeu/assesso-speedometer#readme",
+  "description": "``` npm i assesso-speedometer-rc ```"
 }
